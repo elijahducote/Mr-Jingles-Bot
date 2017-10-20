@@ -4,7 +4,8 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
 
-  message.reply('Ring.');
+  console.log('The bot is up and running, yay!');
+  message.reply('Ring.'); // Bot join message
 
 });
 
