@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 });
 
-client.on('message', () => {
+client.on('message', message => {
   
    message.reply('Ring.'); // Bot join message
   
